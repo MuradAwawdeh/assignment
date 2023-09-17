@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "5cdb6454107a752e479349f1",
+        "Title": "",
+        "Assignee": "John Smith",
+        "Status": "New",
+        "Goal": ""
+    },
+    {
+        "_id": "5cdb6454107a752e479349f2",
+        "Title": "",
+        "Assignee": "Murad Awawdeh",
+        "Status": "Snoozed",
+        "Goal": ""
+    },
+    {
+        "_id": "5cdb6454107a752e479349f3",
+        "Title": "",
+        "Assignee": "Ali Mohammad",
+        "Status": "Has Messages",
+        "Goal": ""
+    }
+]

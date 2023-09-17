@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    .userAvatar {
+        margin-bottom: 1.5rem;
+    }
+}

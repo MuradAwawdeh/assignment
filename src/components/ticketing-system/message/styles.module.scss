@@ -1,0 +1,23 @@
+.container {
+    .message {
+        color: black;
+        background-color: #f7f7f7;
+        padding: 1rem;
+        border-radius: 1rem 1rem 1rem 0;
+    }
+
+    .dot {
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: #96D9E1;
+        border-radius: 100%;
+    }
+
+    .author {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.5rem;
+        padding-inline-start: 2rem;
+    }
+}

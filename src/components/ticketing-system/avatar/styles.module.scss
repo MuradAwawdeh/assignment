@@ -1,0 +1,40 @@
+@mixin selected {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+
+    &:hover {
+        @include selected();
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .dot {
+        position: absolute;
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.selected {
+    @include selected();
+}
